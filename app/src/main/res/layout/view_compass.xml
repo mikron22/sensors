@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.FrameLayout">
+
+  <ImageView
+      android:id="@+id/arrowView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:adjustViewBounds="true"
+      android:src="@drawable/ic_arrow"
+      app:tint="#FF0000"
+      android:tintMode="src_in"
+      tools:ignore="ContentDescription" />
+
+</merge>
